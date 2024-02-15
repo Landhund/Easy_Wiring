@@ -1,7 +1,7 @@
 ﻿Class Code;Purpose/Function;Examples
 A;(not to be used);
 B;Information Pickup and Representation;Sensors
-C;"Storage; PLC";"Capacitors, HDDs, Flash Memory; PLCs"
+C;Storage, PLC;Capacitors, HDDs, Flash Memory, PLCs
 D;(reserved for future use);
 E;Heat/Radiation Emitters;Heating Elements
 F;Safety Equipment;Fuses, Breakers
