@@ -1,0 +1,55 @@
+= Easy Wiring Design Document
+Felix Dreier <felixdreier1@gmail.com>
+0.1, Initial Outline
+:description: Design Document for the Easy Wiring Project
+:sectanchors:
+:sectnums:
+:url-repo: https://github.com/Landhund/Easy_Wiring
+:imagesdir: ./designdoc_resources/images
+
+== Overview
+
+=== Platform
+
+Big Question: Web based or local application?
+Can I run a local web server type of thing?
+If local, what environment? Java? Python?
+
+
+=== UI
+
+* Layout similar to Siemens LOGO! Soft Comfort
++
+image::logosoft_overview.jpg[]
+
+
+=== UX
+
+==== Connections
+
+* again similar to Soft Comfort
+* each Connection must "know" which objects/elements it connects to/with/together
+* optional label within the line
+* optional contact/terminal ID/label
+* only orthogonal directions
+* drag-and-drop of existing connections to move them
+* drag-and-drop from one connector to another
+* Connections have a "Type", i.e. "AC 230 V", "DC 24 V", which is set by their connected Connectors
+** If a Connection connects Connectors of different Types, an Error is created.
+** Connections of undefined Type are valid.
+
+==== Objects
+
+* each Object has configurable Connectors
+** Connectors can be set for each side independently
+** Connectors can be visually grouped together
+** Connectors can be internally connected or switched
+** Types are optional for Connectors. If a Connector has no set Type, it takes on the Type of the connected Connection (if set).
+* each Object is categorized and labeled according to link:designdoc_resources\tables\EN_IEC_81346-2_A1.adoc[EN IEC 81346-2:2019, Table 1]
+ifdef::longform[]
++
+include::designdoc_resources\tables\EN_IEC_81346-2_A1.adoc[]
+endif::[]
+* Mockup of a possible PLC Object:
++
+image::LOGO_230RCL.svg[]

@@ -1,0 +1,5 @@
+Local Application,Web Based
++ I don't need to host or maintain a server, + Will run on any PC
++ I don't have to worry (as much) about possible attack-vectors, - I have to defend against all kinds of attacks
+- I need to create a runtime environment for the app to run in (Java? Python?), - I need a server to actually run the app
+, - I have to guarantee uptime of that server

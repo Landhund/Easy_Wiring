@@ -1,0 +1,27 @@
+﻿Class Code;Purpose/Function;Examples
+A;(not to be used);
+B;Information Pickup and Representation;Sensors
+C;"Storage; PLC";"Capacitors, HDDs, Flash Memory; PLCs"
+D;(reserved for future use);
+E;Heat/Radiation Emitters;Heating Elements
+F;Safety Equipment;Fuses, Breakers
+G;Energy Generation;Batteries, USPs, Generators
+H;Matter Processors;
+I;(not to be used);
+J;(reserved for future use);
+K;Receiving and Processing Signals;Relays, Valves
+L;(reserved for future use);
+M;Providing mechanical movement or force;Motors
+N;(reserved for future use);
+O;(not to be used);
+P;Providing percivalble Signals/Information;Indicator Lights, Buzzers, Measuring Equipment
+Q;Controlling access or flow; Transistors, Load Contactors, Disconectors
+R;Restricting or Stabalizing; Resistors, Coil Chokes, Doides
+S;Detecting Human Interaction; Manual Switches
+T;(Energy) Transformation; Transformers, Power Supplies, Rectifiers, Antennas, Ampliefiers
+U;Localisation of other Objects;
+V;(reserved for future use);
+W;Leading and Guiding; Conduits, Wires, Cables
+X;Connectors; Plugs, Sockets, Terminals
+Y;(reserved for future use);
+Z;(reserved for future use);
