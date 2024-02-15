@@ -1,5 +1,5 @@
 .EN IEC 81346-2:2019, Table 1 (paraphrased)
-[.stretch, cols="^~,~,~", format="csv",separator=";" options="header, autowidth", caption=]
+[.stretch, cols="^~,~,~", format="csv", options="header, autowidth", caption=]
 |===
 include::EN_IEC_81346-2_A1.csv[]
 |===
